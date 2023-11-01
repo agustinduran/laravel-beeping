@@ -1,3 +1,28 @@
+# Laravel specific
+/vendor/
+/node_modules/
+/public/hot
+/public/storage
+/storage/*.key
+/.env
+/.env.backup
+/.phpunit.result.cache
+/homestead.yaml
+/Homestead.json
+/.vagrant/
+/phpunit.xml
+
+# Configuración de IDE y editores
+.idea/
+.vscode/
+*.code-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.tmproj
+*.log
+.phpintel/
+
 /node_modules
 /public/hot
 /public/storage
