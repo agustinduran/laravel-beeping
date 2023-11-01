@@ -60,3 +60,15 @@ updated_at | datetime
 * Composer installed
 * Linux/Mac terminal (Or emulated linux on Windows)
 * No services running on localhost port 8000 or 3306
+
+## Git Branches
+
+main (production)
+│
+└─ dev (pre-production / tests)
+  │
+  ├─ feature/config-laravel
+  │
+  ├─ feature/create-migrations
+  │
+  └─ ...
