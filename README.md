@@ -71,5 +71,5 @@ main (production)
   │
   ├─ feature/create-migrations
   │
-  └─ ...
+  └─ feature/create-seeders
 ```
