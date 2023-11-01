@@ -17,6 +17,7 @@ Agustín Durán
 - [Pre Requisites](#pre-requisites)
 - [Git Branches](#git-branches)
 - [How To Install](#how-to-install)
+- [Calculate cost with command](#calculate-cost-with-command)
 
 ## Tables
 
