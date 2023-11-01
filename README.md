@@ -16,6 +16,7 @@ Agustín Durán
 - [Technology](#technology)
 - [Pre Requisites](#pre-requisites)
 - [Git Branches](#git-branches)
+- [How To Install](#how-to-install)
 
 ## Tables
 
@@ -72,4 +73,26 @@ main (production)
   ├─ feature/create-migrations
   │
   └─ feature/create-seeders
+```
+
+## How to install
+
+### Create a new database
+```sql
+CREATE DATABASE beeping_challenge_aduran;
+```
+
+### Set enviroment variables
+```
+cp .env.example .env
+```
+
+### Run migrations
+```
+php artisan migrate
+```
+
+### Run seeders
+```
+php artisan db:seed
 ```
