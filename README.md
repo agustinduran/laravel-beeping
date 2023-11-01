@@ -62,7 +62,7 @@ updated_at | datetime
 * No services running on localhost port 8000 or 3306
 
 ## Git Branches
-
+```scala
 main (production)
 │
 └─ dev (pre-production / tests)
@@ -72,3 +72,4 @@ main (production)
   ├─ feature/create-migrations
   │
   └─ ...
+```
