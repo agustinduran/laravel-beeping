@@ -72,7 +72,9 @@ main (production)
   │
   ├─ feature/create-migrations
   │
-  └─ feature/create-seeders
+  ├─ feature/create-seeders
+  │
+  └─ feature/eloquent-query-command
 ```
 
 ## How to install
@@ -95,4 +97,16 @@ php artisan migrate
 ### Run seeders
 ```
 php artisan db:seed
+```
+
+## Calculate cost with command
+
+### Active the queue work
+```
+php artisan queue:work
+```
+
+### Run command
+```
+php artisan calculate:order-cost
 ```
