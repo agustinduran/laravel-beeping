@@ -18,8 +18,8 @@ Agustín Durán
 - [Git Branches](#git-branches)
 - [How To Install](#how-to-install)
 - [Calculate cost with command](#calculate-cost-with-command)
-- [Routes](#routes)
 - [Run](#run)
+- [Routes](#routes)
 
 ## Tables
 
@@ -139,16 +139,16 @@ php artisan queue:work
 php artisan calculate:order-cost
 ```
 
-## Routes
-
-### Orders List Table
-```
-http://localhost:8000
-```
-
 ## Run
 
 ### Run app
 ```
 php artisan serve
+```
+
+## Routes
+
+### Orders List Table
+```
+http://localhost:8000
 ```
