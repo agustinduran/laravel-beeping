@@ -117,6 +117,11 @@ DB_USERNAME=[your_username]
 DB_PASSWORD=[your_password]
 ```
 
+### Install dependencies
+```
+composer install
+```
+
 ### Run migrations
 ```
 php artisan migrate
