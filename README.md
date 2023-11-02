@@ -18,6 +18,8 @@ Agustín Durán
 - [Git Branches](#git-branches)
 - [How To Install](#how-to-install)
 - [Calculate cost with command](#calculate-cost-with-command)
+- [Routes](#routes)
+- [Run](#run)
 
 ## Tables
 
@@ -75,7 +77,9 @@ main (production)
   │
   ├─ feature/create-seeders
   │
-  └─ feature/eloquent-query-command
+  ├─ feature/eloquent-query-command
+  │
+  └─ feature/front-liveware
 ```
 
 ## How to install
@@ -110,4 +114,18 @@ php artisan queue:work
 ### Run command
 ```
 php artisan calculate:order-cost
+```
+
+## Routes
+
+### Orders List Table
+```
+http://localhost:8000
+```
+
+## Run
+
+### Run app
+```
+php artisan serve
 ```
