@@ -79,7 +79,9 @@ main (production)
   │
   ├─ feature/eloquent-query-command
   │
-  └─ feature/front-liveware
+  ├─ feature/front-liveware
+  │
+  └─ feature/env-instructions
 ```
 
 ## How to install
@@ -90,8 +92,29 @@ CREATE DATABASE beeping_challenge_aduran;
 ```
 
 ### Set enviroment variables
+#### Copy .env.example file
 ```
 cp .env.example .env
+```
+
+#### Put your database host on
+```
+DB_HOST=[your_host]
+```
+
+#### Put your database port on
+```
+DB_PORT=[your_port]
+```
+
+#### Put your database username on
+```
+DB_USERNAME=[your_username]
+```
+
+#### Put your database password on
+```
+DB_PASSWORD=[your_password]
 ```
 
 ### Run migrations
