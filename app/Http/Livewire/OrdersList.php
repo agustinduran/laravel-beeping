@@ -4,7 +4,6 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 use App\Models\Order;
-use App\Models\OrderLine;
 
 class OrdersList extends Component
 {
@@ -12,7 +11,11 @@ class OrdersList extends Component
 
     public function mount()
     {
-        $this->orders = Order::withCount('orderLines AS total_qty')->get();
+        $this->orders = Order::with('orderLines')->get();
+
+        foreach ($this->orders as $order) {
+            $order->total_qty = $order->orderLines->sum('qty');
+        }
     }
 
     public function render()
